@@ -8,6 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config(  # type: ignore
     "SECRET_KEY", default="EUnrJLKwm33xx8g1YQ9qP0QU9dy1S6nP54bs8YrBdHa6P8FF4o7HH32HosEJjq3V",)
 
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
